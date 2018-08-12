@@ -95,7 +95,7 @@ class TicketControl {
             }
             // Leer info de un archivo json
         let jsonDataString = JSON.stringify(jsonData);
-        fs.writeFileSync('./data/data.json', jsonDataString);
+        fs.writeFileSync('.server/data/data.json', jsonDataString);
 
 
     }
